@@ -5,9 +5,7 @@ import retrofit.Call
 import retrofit.http.GET
 import retrofit.http.Query
 
-/**
- * An Interface which defines the HTTP operations Functions.
- */
+
 interface WeatherService {
 
     @GET("2.5/weather")
